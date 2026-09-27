@@ -367,12 +367,12 @@
           overlay.style.justifyContent = 'center';
 
           const message = document.createElement('h3');
-          message.textContent = 'If you are seeing this message, you are on a ChromeOS version higher than 134 and therefore this exploit will not work for you.';
+          message.textContent = 'If you are seeing this message, you are on a ChromeOS version higher than 134 and while thats not a bad thing, this could not work. You have been warned. =-]';
           message.style.color = 'white';
 	  message.style.userSelect = 'none';
 
           const button = document.createElement('button');
-          button.textContent = 'Click here to load it anyway';
+          button.textContent = 'Challenge Accepted! (i guess?)';
           button.style.marginTop = '20px';
           button.style.display = 'block';
           button.style.marginLeft = 'auto';
@@ -437,7 +437,7 @@
     	    console.log("Dev Mode On: " + devModeToggle.checked);
 
     	    if (devModeToggle.checked) {
-                devModeToggle.checked = confirm("Are you sure you want to enable developer mode? This is intended only for people who know what they are doing!");
+                devModeToggle.checked = confirm("Are you sure you want to enable developer mode? You can break something if you don't know what to do.");
                 if (!devModeToggle.checked) {
                     document.getElementById("dev-settings").style.display = "none";
                     return;
