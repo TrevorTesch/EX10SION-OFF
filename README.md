@@ -1,8 +1,8 @@
-## About ExtPrint3r
+# About EX10SION-OFF
 
-ExtPrint3r is an exploit created by [Blobby Boi](https://github.com/Blobby-Boi/) with the goal of being the successor to ExtHang3r. The exploit recreates the behavior of the LTMEAT Print method by flooding iframes and then printing the page. For whatever reason, printing a page with a ton of iframes hangs the embedded page rather than the host page. This is exactly what ExtPrint3r exploits, since it also works with extension pages (as long they are under web_accessible_resources). This seems to be much more consistent than other extension-freezing methods, and it also lasts for a longer period of time. Just like ExtHang3r, this would not have been possible withuot [ading2110](https://github.com/ading2210/)'s original Dextensify, go check it out!
+EX10SION-OFF is an exploit created by [Trevor Tesch or Auth](https://github.com/TrevorTesch/) with the goal of being the successor to ExtPrint3r. The exploit recreates the behavior of the LTMEAT Print method by flooding iframes and then printing the page. For whatever reason, printing a page with a ton of iframes hangs the embedded page rather than the host page. This is exactly what EX10SION-OFF exploits, since it also works with extension pages (as long they are under web_accessible_resources). This seems to be much more consistent than other extension-freezing methods, and it also lasts for a longer period of time. Just like ExtHang3r, this would not have been possible withuot [ading2110](https://github.com/ading2210/)'s original Dextensify, go check it out!
 
-> It is heavily recommended that you disable the V8 optimizer (chrome://settings/content/v8) prior to using this exploit! This was found by [ts353](https://github.com/ts353).
+> #### It is heavily recommended that you disable the V8 optimizer (chrome://settings/content/v8) prior to using this exploit! This was found by [ts353](https://github.com/ts353).
 
 ## How do I use it?
 
@@ -17,7 +17,7 @@ data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%22%3
 
 > If data URLs are blocked for you, feel free to try the [webhosts](hosts.md).
 
-## How to add custom extensions to ExtPrint3r
+## How to add custom extensions to EX10SION-OFF
 
 > [!WARNING]
 > If this guide fails for you do not make an issue on it, this is only for advanced users.
